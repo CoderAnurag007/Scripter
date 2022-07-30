@@ -46,21 +46,18 @@ function App() {
         <Alertmessage togglealert={togglealert} state={state} />
 
         <Switch>
-          <Route exact path="/about">
+          <Route exact path="/Scripter/about">
             <div className="container">
               <About style={aboutstyle} />
             </div>
           </Route>
-          <Route exact path="/textform">
+          <Route exact path="/Scripter/textform">
             <div className="conatiner">
               <Textform />
             </div>
           </Route>
 
-          <Route exact path="/Text-manipulator">
-            <Land />
-          </Route>
-          <Route exact path="/">
+          <Route exact path="/Scripter">
             <Land />
           </Route>
         </Switch>

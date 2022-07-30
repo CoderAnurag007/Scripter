@@ -17,7 +17,7 @@ function Nav(props) {
         className={`navbar navbar-expand-lg navbar-${back} bg-${param} px-3`}
       >
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/Scripter">
             {props.title}
           </Link>
           <button
@@ -34,16 +34,11 @@ function Nav(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/Scripter/about">
                   About
                 </Link>
               </li>
-              <Link className="nav-link" to="/textform">
+              <Link className="nav-link" to="/Scripter/textform">
                 Textform
               </Link>
             </ul>
